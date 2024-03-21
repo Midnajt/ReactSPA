@@ -12,11 +12,15 @@
 }
 
 .list a {
+  padding: 0.2rem;
+  border: 1px solid transparent;
   text-decoration: none;
   color: var(--color-primary-400);
 }
 
 .list a:hover,
 .list a.active {
+  padding: 0.2rem;
+  border: 1px solid var(--color-primary-800);
   color: var(--color-primary-800);
 }
