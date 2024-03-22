@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function EventItem({ event }) {
   function startDeleteHandler() {
-    // ...
+    console.log("startDeleteHandler");
   }
 
   return (

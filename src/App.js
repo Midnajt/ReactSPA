@@ -8,8 +8,6 @@ import RootLayout from "./pages/Root";
 import EventsRootLayout from "./pages/EventsRoot";
 import ErrorPage from "./pages/Error";
 
-console.log(eventDetailLoader);
-
 const router = createBrowserRouter([
   {
     path: "/",
