@@ -6,7 +6,7 @@ import EventForm from "../components/EventForm";
 function EditEventPage() {
   const data = useRouteLoaderData("event-detail");
 
-  return <EventForm event={data.event}></EventForm>;
+  return <EventForm method={"patch"} event={data.event}></EventForm>;
 }
 
 export default EditEventPage;
